@@ -1,0 +1,32 @@
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 130px;
+    position: relative;
+}  
+
+.logo{
+    height: 10%;
+    width: 20%;
+}
+
+.trait-horizontal {
+    border-bottom: 2px solid rgb(189, 184, 184);
+    box-shadow: 5px 7px 15px 2px rgb(230, 230, 230);
+    position: absolute;
+    width: 1643px;  
+    left: 0px;
+    top: 110px;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--font-color);
+    text-decoration-thickness: 1px;
+  }
+
+a:active{
+    color: rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Noto+Serif&family=Rosario:wght@300&family=Wix+Madefor+Text:wght@400;500&display=swap');
+
+:root {
+    --font-lato : 'Lato', sans-serif;
+    --font-color: #173A45;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    font-size: 62.5%;/* 1rem = 10px*/
+}
+body{
+    font-size: 1.4rem;/* soit 14px*/
+    font-family: var(--font-lato);
+    color: var(--font-color);
+}
